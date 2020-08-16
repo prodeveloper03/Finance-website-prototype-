@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		
+		
+
+		<title>Finance your own world</title>
+		<meta name="viewport" content="width=device-width , initial-scale= 1.0">
+        
+
+				<link href="https://fonts.googleapis.com/css2?family=Lemonada&display=swap" rel="stylesheet">
+				<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
+
+		<style type ="text/css">
+		
+	
+		
+		.head-section {  /* commands for the design for the menu bar */
+
+						position: fixed;
+						background-color: white;
+						height: 14%;
+						width: 100%;
+						font-size: 14px;
+		}
+		a:link {
+						text-decoration: none;
+			}
+
+		a:visited {
+						text-decoration: none;
+			}
+
+		a:hover {
+						text-decoration: underline;
+			}
+
+		a:active {
+						text-decoration: underline;
+			}
+			a {
+						color: black;
+			}
+		
+
+
+		h1 { /*  commands for the welcome mssg*/
+						color: rgb(34, 33, 33);
+						text-align: center;
+						text-emphasis-style: circle;
+						border-spacing: 20,30,20,30;
+						font-size: 350%;
+						font-family: 'Baloo Tammudu 2', cursive;
+						align-items: center;
+			
+
+		}
+		p { /*  commands for the ABOUT at the header*/
+						outline-color:rgb(34, 33, 33);
+						font-size: 300%;
+						font-stretch: extra-expanded;
+						font-weight: lighter;
+						margin-left: 18px;
+						margin-top: 10px;
+		}
+
+		#content { /* commands for the content of the about*/
+
+						font-family: 'Baloo Tammudu 2', cursive;
+						font-size: 150%;		
+						color: rgb(34, 33, 33);
+						margin-left: 18px;
+						margin-top: 10px
+
+
+
+		}
+
+		#im1 { /* The fourth image in the website */
+						display: block;
+						margin-left: auto;
+						margin-right: auto;
+						width: 1345px;
+						height: 20%;
+				
+		}
+		#im2 { /* The second image in the website*/
+						margin-left: auto;
+						margin-right: auto;
+						margin-top: 10px;
+						margin-bottom: 20px;
+						height: 480px;
+						width: 1345px;
+						
+						float:none;
+
+		}
+		#im3 { /* The third image in the website */
+						margin-left: auto;
+						margin-right: auto;
+						margin-top: 10px;
+						margin-bottom: 20px;
+						height: 450px;
+						width: 1345px;
+						float:none;
+						padding-top: 20px;
+						padding-bottom: 20px;
+
+		}
+
+		#im4 { /* The first image in the website */
+						margin-left: auto;
+						margin-right: auto;
+						margin-top: 10px;
+						margin-bottom: 10px;
+						height: 450px;
+						width: 1345px;
+						
+						float: left;
+
+		}
+	
+		
+
+		#logo-section { /* commands fo the Logo */
+
+				
+						margin-top: 0px;
+						width: 320px;
+						height: 91px;
+						float:left;
+
+		}
+		
+		body { /* commands to adjust the screen settings */
+						margin: 0px;
+						padding: 0px;
+						background-color:papayawhip;
+						font-family: Helvetica, Arial, sans-serif;
+						box-sizing: border-box;
+						scroll-behavior: smooth;
+						
+
+
+			}
+		.navigate-menu{ /*  commands for the navigation menu bar*/
+
+						font-style: bold;
+						font-family: 'Baloo Tammudu 2', cursive;
+						float: right;
+						margin-left: 10px;
+						margin-top: 20px;
+						margin-right: 15px;
+						margin-bottom: 5px;
+						font-size: 200%;
+
+		}
+		#analytics-content { /*  commands for the analytucs content */
+						padding-left: 10px;
+						padding-right: 3px;
+						padding-top: 10px;
+						padding-bottom: 8px;
+						font-size: 150%;
+						font-family: 'Baloo Tammudu 2', cursive;
+						float: right;
+		}
+		#analytics-header{ /* commands for the Heder of analytics */
+						padding-left: 3px;
+						padding-right: 3px;
+						padding-top: 2px;
+						padding-bottom: 5px;
+						float: left;
+		}
+		#calculation-header { /*  commands for the claculation header */
+					
+						float: left;
+						font-size: 300%;
+						font-stretch: extra-expanded;
+						font-weight: lighter;
+						padding-top: 20px;
+						padding-right: 10px;
+						padding-left: 3px;
+						padding-bottom: 6px;
+
+					}
+		#calculation { /* commands for the calculation content */
+			
+						float: left;
+						font-size: 150%;
+						font-family: 'Baloo Tammudu 2', cursive;
+						margin-top: 10px;
+						padding-top: 3px;
+						padding-left: 3px;
+						padding-right: 10px;
+						padding-bottom: 20px;
+			
+		
+		}
+		#management-header { /* commands for the management header*/
+						float: left;
+						font-size: 300%;
+						font-stretch: extra-expanded;
+						font-weight: lighter;
+						padding-top: 20px;
+						padding-right: 10px;
+						padding-left: 3px;
+						padding-bottom: 6px;
+
+			
+
+		}
+		#management {  /* commands for the management content*/
+						float: left;
+						font-size: 150%;
+						font-family: 'Baloo Tammudu 2', cursive;
+						margin-top: 10px;
+						padding-top: 3px;
+						padding-left: 3px;
+						padding-right: 10px;
+						padding-bottom: 20px;
+			
+		
+		}
+
+		#foot-container {  /*  commands for the footer background*/
+						background-color: rgba(35, 35, 43, 0.507);
+						width: 100%;
+						height: auto;
+						float: left;
+				}
+		#copyright-statement {  /* commands for the copyright statement in the foot-container */
+						float:right;
+						margin-top: 230px;
+						margin-right: 12px;
+						margin-bottom: 3px;
+						font-size: 16px;
+						color: honeydew;
+						font-weight: bold;
+		}
+		#founder-statement {  /* commands for the founder stateent in the foot container */
+						float: left;
+						margin-right: 30px;
+						margin-left: 10px;
+						margin-top: 10px;
+						margin-bottom: 20px;
+						font-size: 20px;
+						font-weight: bold;
+						color: honeydew;
+						font-stretch: extra-expanded;
+						font-weight: lighter;
+
+		
+		}
+		#logo-footer {  /*  commands for the logo placed in the footer*/
+						height: 100px;
+						width: 300px;
+						border-radius: 50%;
+						padding-right: 2px;
+						padding-left: 2px;
+						padding-bottom: 2px;
+					
+						margin-right: 30px;
+					
+						
+						margin-bottom: 20px;
+		}
+		#developer-contact {  /* commands for the developer details in the foot-container*/
+			
+						color:honeydew;
+						font-size: 16px;
+						
+		}
+	
+			
+
+		#website-contact {  /* commands for the website-contact details in the foot-container*/
+			
+						color:honeydew;
+						font-size: 16px;
+
+
+		}
+		html {
+			scroll-behavior: smooth;
+		}
+	
+		
+		
+		
+		</style>
+
+	</head>
+	<body>
+
+		<script type="text/javascript">
+
+				/*
+					THIS IS THE STARTING POINT OF CONTENT MODIFICATION.........		
+
+				 	Addition content to the "About" content section
+				 */
+				document.getEleme0ntById("content").innerHTML = function() {
+
+					document.getElementById("content").innerHTML = document.getElementById("content").innerHTML + " ";
+				}
+				// Addition content to the "Analytics-content" content section
+						document.getElementById("analytics-content").innerHTML = function() {
+
+								document.getElementById("analytics-content").innerHTML = document.getElementById("analytics-content").innerHTML + " ";
+					
+					
+							}
+				//Addition content to the "calculation" content section
+							
+
+							document.getElementById("calculation").innerHTML = function() {
+
+								document.getElementById("calculation").innerHTML = document.getElementById("calculation").innerHTML + " ";
+
+							}
+				//Addition content to the "management" content section
+
+
+							document.getElementById("calculation").innerHTML = function() {
+								document.getElementById("calculation").innerHTML = document.getElementById("calculation").innerHTML + " ";
+							}
+		
+							// ***Here the content modification ends***
+
+				// ***Javascript command for the MENU bar which is making this responsive***
+							
+							// COMMANDS FOR THE CONTACT BUTTON IN MENU BAR
+							document.getElementById("contact-us") = function() {
+
+
+
+							}
+
+							//COMMANDS FOR THE BLOG BUTTON IN MENU BAR
+							document.getElementById("my-blog") = function() {
+
+
+
+							}
+							//COMMANDS FOR THE NEWS BUTTON IN MENU BAR
+							document.getElementById("news") = function() {
+
+
+							}
+							//COMMANDS FOR THE SERVICE BUTTON IN MENU BAR
+							document.getElementById("service") = function() {
+
+
+
+							}
+							//COMMANDS FOR THE ANALYTICS BUTTON IN MENU BAR
+							document.getElementById("analytics") = function() {
+
+
+							}
+					// ***END OF THE DEVELOPMENT OF MENU BAR***	
+
+
+		
+		
+		</script>
+	
+	
+		<div class="head-section"> 
+								 
+
+						<img id ="logo-section" src="my-logo.jpg"></img>
+						
+									<a href="#link" id="contact-us" class="navigate-menu">|Contact us|</a>
+									<a href="" id="my-blog" class="navigate-menu">|My Blogs|</a>
+									<a href="index2.html" target="_blank" id="investment" class="navigate-menu">|Investment|</a>
+									<a href="#management-header" id="management-menubar" class="navigate-menu">|Management|</a>
+									<a href="#analytics-header" id="analytics" class="navigate-menu">|Analytics|</a>
+									<a href="#about-scroll" id="about-us" class="navigate-menu">|About us|</a>
+					
+		</div>
+	
+	        	<img src="4.jpeg" id="im1"></img>
+
+				<h1>WELCOME TO FINANCE YOUR OWN WORLD</h1>
+
+									<p id="about-scroll">About</p>
+
+					<p id="content">Getting information is the smartest work an human being does.Here you are,you will find all finace related blogs,corporate and infletion news in the finance sector &beneficial app and websites for asset management/SIP insurence/mutual funds/portfolio management. We will provide you the best websites and app financial service in India.
+					We are the non profit organistion so you can trust us and be tension free about endosing your capital in one the provided finance corporate companies.
+					</p>
+							<img src="2.jpeg" id="im3"></img>
+			<br>
+						<p id="analytics-header">Analytics</p>
+		
+							<p id="analytics-content">
+							Knowing the analytics is the challenge faced by every in the beginning .
+							Here we are with the modern solution with latest technology to help you with.we provide you the tested and worthful top listed softwares based on the experience of the market experts and many users. These analytics tracing software will give you the best experience to read and study the market which will definetly going to make your “wealth grow” 
+							</p>
+			<br>
+							<img src="3.jpeg" id="im2"></img>
+			<br>
+						<p id="calculation-header">Calculation and Auditing</p>
+							<p id="calculation">Calculating & auditing is most compex part for an beginner or the person having no kowladge or no experience, isn’t it!!
+								We will provide  you the list of best and assured softwares which will make your calculation and auditing part easy .
+								Now you can do your other work not worrieng about the “wealth calculation and auditing”.
+								</p>
+		<br>
+							<img src="1.jpeg" id="im4"></img>
+		<br>
+						<P id="management-header">Management</P>
+							<p id="management">
+								Managing your fund and  portfolio is an critical task of invester .Without the proper knowledge ypu can’t deal wit it. 
+								Back in then we is to meet the fund manager or portfolio manager physically. Which is a very hectic task do and it also waste your priceless “time”.
+								Here you will find list best fund manager and portfolio maneger. The apps and website provided on the listed is engaged with some finest fund & portfolio manager , even the best AI and prediction technologies is used by them.
+								Which will make your “Wealth grow”.
+								</p>
+		<br>
+
+
+
+				<div id="foot-container">
+								<p id="copyright-statement">Finance your own world @ 2020 copyright</p>
+								<p id="founder-statement">Founder <br>Sounak saha</p>
+								<img id ="logo-footer" src="my-logo.jpg"></img>
+							<div class="link">
+			
+									<p id="developer-contact">contact web Developer :<a id="link-webdeveloper" href="https://mail.google.com/mail/u/0/#inbox" > service @ webdeveloper</a></p>
+									<p id="developer-contact">Contact Web developer :<a href="#">8335086685</a></p> 
+									<p id="website-contact">For any suggestion :<a id="link-suggestion" href="https://mail.google.com/mail/u/1/#inbox" > financeyourownworld.co @ gmail.com</a></p>
+									<p id="website-contact"> call us :<a href="#">9330406342</a></p>
+							</div>
+
+				</div>
+		
+		
+		
+		<br>
+
+		
+	</body>
+
+
+</html>
